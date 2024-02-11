@@ -6,6 +6,9 @@ box-sizing: border-box;
 }
 body{
     background: #16271c;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; 
 }
 .app{
     background: #16271c;
@@ -41,15 +44,19 @@ body{
     margin: 10px 0;
     text-align: left;
     border-radius: 4px;
+    transition: 0.3s;
     cursor: pointer;
 }
-.btn:hover{
+.btn:hover:not([disabled]){
     background: #222;
     color: #fff;
 }
+.btn:diabled{
+    cursor: no-drop;
+}
 
 #next-btn{
-    background: #001e4d;
+    background: grey;
     color: #fff;
     font-weight: 500;
     width: 150px;
@@ -72,11 +79,35 @@ body{
     text-align: right;
     color: black;
     text-align: right;
+    margin-left: auto;
+
+}
+.navbar {
+  display: flex;
+  justify-content: space-between; 
 }
 
-footer {
-    background-color: #336752;
+.navbar-nav {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .navbar-brand {
+  font-weight: bold;
+  justify-content: center;
+  }
+  
+  .navbar-nav {
+    display: flex;
+  }
+  
 a:link, a:visited {
     background-color: grey;
     color: white;
@@ -89,3 +120,17 @@ a:link, a:visited {
   a:hover, a:active {
     background-color: rgb(86, 154, 86);
   }
+  footer {
+    background-color: #336752;
+    padding: 20px;
+    color: black;
+    margin-top: auto;
+    align-content: center;
+
+}
+.correct{
+    background: teal;
+}
+.incorrect{
+    background: red;
+}
