@@ -4,36 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <link rel="stylesheet" href="main.css"
 </head>
 <body>
     
-  <nav class="navbar-brand>
+  <nav class= "navbar>
     <div class="container-fluid">
       <span class="navbar-brand mb-0 h1">Quiz Masters Travels</span>
     </div>
   </nav>
   
-  <div class="container" class="d-flex flex-column mb-3">
+  <div class="container">
     <div class="question-box">
-      <div class="p-2"></div>
-      <div class="p-2">Paris</div>
-      <div class="p-2">Berlin</div>
-      <div class="p-2">London</div>
-      <div class="p-2">Madrid</div>
-
-
-
         <h2 id="question"></h2>
     </div>
     <div class="options-box">
         <ul id="options">
 
           <li> "What is the capital of France?"</li>
-          <li>"In what year did the great fire of London take place?"</li>
         </ul>
     </div>
+
+
+    <div id="score-container">
+      <p>Score: <span id="score">0</span></p>
+  </div>
+  <button id="next-btn" onclick="nextQuestion()">Next Question</button>
+  
     
   
       <script src="index.js"></script>
@@ -46,4 +43,7 @@
 
 
 </body>
+<footer>
+
+</footer>
 </html>
