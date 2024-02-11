@@ -62,17 +62,30 @@ body{
 }
 
 
-.navbar-brand mb-0 h1{
-    display: flex;
-    font-weight: bold;
-    font-size: 55pxx;
-    border: solid;
-    outline: solid;
+.navbar {
+    padding: 12px 6px;
+    text-align: left;
     color: black;
-    padding: 14px 16px;
-    background-color: white;
-    font-family: 16px;
-    margin: 0;
-    align-items: center;
-    display: block;
+    background-color: #336752;   
 }
+.nav-link{
+    text-align: right;
+    color: black;
+    text-align: right;
+}
+
+footer {
+    background-color: #336752;
+}
+a:link, a:visited {
+    background-color: grey;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  a:hover, a:active {
+    background-color: rgb(86, 154, 86);
+  }
