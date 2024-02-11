@@ -1,7 +1,35 @@
-body{
-    background-color: #3C8E5C;
-
+*{
+margin: 0;
+padding: 0;
+font-family: 'Arial', sans-serif;
+box-sizing: border-box;
 }
+body{
+    background: #16271c;
+}
+.app{
+    background: #16271c;
+    width: 90%;
+    max-width: 600px;
+    margin: 100px auto 0;
+    border-radius: 10px;
+    padding: 30px; 
+}
+.app h1{
+    font-weight: 25px;
+    color: black;
+    font-weight: 600;
+    border-bottom: 1px;
+    padding-bottom: 30px;
+}
+.quiz{
+    padding: 20px 0:0%
+}
+.quiz h2{
+    font-size: 18px;
+}
+
+
 .navbar-brand mb-0 h1{
     display: flex;
     font-weight: bold;
@@ -15,20 +43,3 @@ body{
     margin: 0;
     align-items: center;
 }
-
-
-.question-box {
-    background-color: #16271c;
-    padding: 20px;
-    border-radius: 5px;
-    margin-bottom: 20px;
-}
-
-.options-box {
-    background-color: #16271c;
-    padding: 20px;
-    border-radius: 5px;
-    margin-bottom: 20px;
-}
-
-
