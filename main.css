@@ -10,11 +10,11 @@ body{
     flex-direction: column;
     min-height: 100vh; 
 }
-.app{
+.QuizApp{
     background: #16271c;
     width: 90%;
     max-width: 600px;
-    margin: 100px auto 0;
+    margin: auto;
     border-radius: 10px;
     padding: 30px; 
 }
@@ -28,11 +28,21 @@ body{
 .quiz{
     padding: 20px 0;
 }
-.quiz h2{
+ .app h2 {
     font-size: 18px;
     color: black;
     font-weight: 600;
-}
+    width: 50%;
+    margin:  100px auto;
+    padding: 100px ;
+ }
+ .start-button-container{
+    display: block;
+    margin: auto;
+    font-weight: bold;
+  
+ }
+ 
 
 .btn{
     background: #3B905C;
@@ -69,23 +79,24 @@ body{
 }
 
 
+
+.nav-link{
+    align-items: center;
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+}
+
 .navbar {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 35px;
     padding: 12px 6px;
     text-align: left;
-    color: black;
-    background-color: #336752;   
+    color: white;
+    background-color: #336752;
+    display: flex;
 }
-.nav-link{
-    text-align: right;
-    color: black;
-    text-align: right;
-    margin-left: auto;
 
-}
-.navbar {
-  display: flex;
-  justify-content: space-between; 
-}
 
 .navbar-nav {
   display: flex;
@@ -93,15 +104,14 @@ body{
   margin: 0;
   padding: 0;
 }
-
-.navbar {
-    display: flex;
-    justify-content: space-between;
-  }
+.navbar-title{
+    position: absolute;
+    ;
+}
   
   .navbar-brand {
   font-weight: bold;
-  justify-content: center;
+  
   }
   
   .navbar-nav {
@@ -121,9 +131,10 @@ a:link, a:visited {
     background-color: rgb(86, 154, 86);
   }
   footer {
+    font-family:Arial, Helvetica, sans-serif;
     background-color: #336752;
     padding: 20px;
-    color: black;
+    color: white;
     margin-top: auto;
     align-content: center;
 
