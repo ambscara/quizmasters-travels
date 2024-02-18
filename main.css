@@ -40,10 +40,8 @@ body{
     display: block;
     margin: auto;
     font-weight: bold;
-  
  }
  
-
 .btn{
     background: #3B905C;
     color: #222;
@@ -116,10 +114,6 @@ body{
   
   .navbar-nav {
     display: flex;
-  }
-  img{
-    padding: 5%;
-    margin: 5%;
   }
   
 a:link, a:visited {
