@@ -117,6 +117,10 @@ body{
   .navbar-nav {
     display: flex;
   }
+  img{
+    padding: 5%;
+    margin: 5%;
+  }
   
 a:link, a:visited {
     background-color: grey;
