@@ -8,3 +8,8 @@
 - There is a timer for 30secs
 - The number of questions and timer will increase every level
 - Each level will be about a certain place in the world ( country/city)
+
+
+
+# HOST
+- https://ambscara.github.io/quizmasters-travels/
